@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Diferença: items vs content</title>
+  <style>
+    body {
+      font-family: Arial;
+      display: flex;
+      gap: 20px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 10px;
+      width: 220px;
+      height: 220px;
+      background: #eee;
+      border: 2px solid #333;
+    }
+
+    .container2 {
+      display: grid;
+      gap: 10px;
+      width: 220px;
+      height: 220px;
+      background: #eee;
+      border: 2px solid #333;
+    }
+
+    .item {
+      width: 40px;
+      height: 40px;
+      background: tomato;
+    }
+
+    /* ITEMS */
+    .justify-items {
+      justify-items: center;
+    }
+
+    .align-items {
+      align-items: center;
+    }
+
+    .place-items {
+      place-items: center;
+    }
+
+    /* CONTENT */
+    .justify-content {
+      justify-content: center;
+    }
+
+    .align-content {
+      align-content: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ITEMS -->
+  <div>
+    <h3>justify-items</h3>
+    <div class="container justify-items">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+
+  <div>
+    <h3>align-items</h3>
+    <div class="container align-items">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+
+  <div>
+    <h3>place-items</h3>
+    <div class="container place-items">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+
+  <!-- CONTENT -->
+  <div>
+    <h3>justify-content</h3>
+    <div class="container2 justify-content">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+
+  <div>
+    <h3>align-content</h3>
+    <div class="container2 align-content">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+
+</body>
+</html>
