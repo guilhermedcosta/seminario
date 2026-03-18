@@ -1,0 +1,26 @@
+
+.container {
+  display: grid;
+
+  grid-template-columns: 50px 1fr 100px;
+  gap: 15px;
+  padding: 20px;
+}
+
+l
+.caixa-a { 
+  background: #ff5e57
+  height: 300px; 
+  border-radius: 20px 0 0 20px 
+}
+
+.caixa-b { 
+  background: #1e90ff
+  height: 300px; 
+}
+
+.caixa-c { 
+  background: #ffa502
+  height: 300px; 
+  border-radius: 0 20px 20px 0
+}

@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+
+  height: 400px; 
+  background-color: #111;
+  padding: 10px;
+  gap: 10px;
+
+
+  grid-template-rows: 60px 1fr 50px;
+}
+
+ */
+.topo  { background: #ff4757; } 
+.meio  { background: #2ed573; } 
+.base  { background: #ffa502; }
+
+
+.container div { border-radius: 8px; }
